@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Montserrat:wght@300&display=swap');
+body{
+    background-color: rgb(187, 240, 240);
+}
+*{
+    margin: 0;
+    padding:0;
+}
+.brand img{
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  margin-right:14px;
+}
+nav{
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav ul{
+    display: flex;
+    list-style-type: none;
+    height: 90px;
+    background-color: rgb(109, 48, 48);
+    color: blanchedalmond;
+    align-items: center;
+}
+nav li{
+    margin: 4px 12px;
+}
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.2rem;
+}
+.container{
+    min-height: 69vh;
+    background-color: black;
+    color: rgb(255, 255, 255);
+    display: flex;
+    width: 75%;
+    margin: 3px auto;
+    border-radius: 10px;
+    background-image: url('music.jpg');
+    background-size: 1200px 90%;
+}
+.bottom{
+    position:sticky;
+    bottom: 0;
+  height: 70px;
+  width: 75vw;
+  background-color: rgb(44, 44, 49);
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  color: white;
+  flex-direction: column;
+  margin-top: 440px;
+  margin-left: -340px;
+}
+#progressBar{
+    width: 75vw;
+    cursor: pointer;
+}
+.icons{
+    margin-top: 6px;
+    cursor: pointer;
+}
+.container h1{
+    margin-left: 30px;
+    margin-top: 10px;
+}
+.songTracks{
+    height:50px;
+    width:270px;
+    display: flex;
+    background-color: rgb(26, 26, 24);
+    margin: 5px 40px;
+    color: rgb(255, 240, 254);
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 20px;
+}
+.songTracks img{
+  width:40px;
+  margin:5px 10px;
+}
+.songList{
+    margin-left: -220px;
+    margin-top: 20px;
+}
+.showTime{
+    margin:0px 15px;
+}
+.songTrack1{
+    margin-top: 30px;
+}
